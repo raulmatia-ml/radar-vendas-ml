@@ -1,0 +1,11 @@
+name = "radar-vendas-ml"
+main = "src/index.js"
+compatibility_date = "2026-10-20"
+workers_dev = true
+
+# Copie este arquivo para wrangler.toml e informe os IDs do KV.
+# Não salve ML_CLIENT_SECRET no GitHub; use `wrangler secret put`.
+[[kv_namespaces]]
+binding = "ML_TOKENS"
+id = "SEU_KV_NAMESPACE_ID"
+preview_id = "SEU_KV_PREVIEW_NAMESPACE_ID"
